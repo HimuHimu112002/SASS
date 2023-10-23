@@ -1,0 +1,29 @@
+@import '../mixin/divSection';
+
+.CardSection{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+@for $i from 3 through 4{
+    .section#{$i}{
+        background-color: rebeccapurple;
+        @extend .CardSection
+    };
+};
+
+.section1{
+    background-color: rebeccapurple;
+    @extend .CardSection
+}
+.section2{
+    background-color: rgb(43, 70, 226);
+    @extend .CardSection
+}
+.cardMainSection{
+    @include cardMainSection
+}

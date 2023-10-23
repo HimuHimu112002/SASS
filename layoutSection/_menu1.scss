@@ -1,0 +1,26 @@
+.main1{
+    margin-top: 20px;
+    background-color: blueviolet;
+    .menu1{
+        width: 500px;
+        margin: 0 auto;
+        padding: 10px 0px;
+        background-color: $backgroundColor;
+        ul{
+            padding: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            li{
+                //dynamic value pass
+                @include LI1(red, 5px, 10px);
+                cursor: pointer;
+                display: inline-block;
+                list-style-type: none;
+                background-color: black;
+                color: $menuItemsColor;
+                padding: 4px 10px;
+            }
+        }
+    }
+}

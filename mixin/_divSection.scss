@@ -1,0 +1,9 @@
+@mixin cardMainSection{
+    width: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}

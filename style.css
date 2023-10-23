@@ -1,0 +1,106 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: blueviolet;
+}
+.main .menu {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  background-color: blue;
+}
+.main .menu ul {
+  padding: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.main .menu ul li {
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+}
+
+.main1 {
+  margin-top: 20px;
+  background-color: blueviolet;
+}
+.main1 .menu1 {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  background-color: blue;
+}
+.main1 .menu1 ul {
+  padding: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.main1 .menu1 ul li {
+  border-color: red;
+  border-radius: 5px;
+  border-width: 10px;
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+}
+
+.CardSection, .section2, .section1, .section4, .section3 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.section3 {
+  background-color: rebeccapurple;
+}
+
+.section4 {
+  background-color: rebeccapurple;
+}
+
+.section1 {
+  background-color: rebeccapurple;
+}
+
+.section2 {
+  background-color: rgb(43, 70, 226);
+}
+
+.cardMainSection {
+  width: 500px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.list {
+  width: 800px;
+  margin: auto;
+  display: flex;
+}
+.list li {
+  list-style-type: none;
+  background-color: bisque;
+  font-size: 17px;
+  text-align: justify;
+  margin: 20px 10px;
+  padding: 10px 8px;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */

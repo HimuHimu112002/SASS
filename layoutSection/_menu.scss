@@ -1,0 +1,20 @@
+@import '../mixin/code';
+.main{
+
+    background-color: blueviolet;
+    .menu{
+        width: 500px;
+        margin: 0 auto;
+        padding: 10px 0px;
+        background-color: $backgroundColor;
+        ul{
+            padding: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            li{
+                @include LI
+            }
+        }
+    }
+}

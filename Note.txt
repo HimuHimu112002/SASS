@@ -1,0 +1,11 @@
+// variable declaration ==================
+$colo: red ===================== EX -> commonPartialCode
+
+// partial mane holo alada alada folder jekahne protita section er jonno alada folder thakbe and sei section er all code thakbe =========================== EX -> layoutSection
+ 
+
+// mixin mane holo jei code guli bar bar use hobe sei code guli mixin er vhitore likhe then jekahne dorkar @include kore nibo ============================ EX -> mixin folder
+
+
+// extend mane holo jodi 2ti div thake dutir design same just background color change korte hoi tahole upore class likhe css code kore then 2ti div er joddo jei code guli alada sei code guli likhte hobe r jei code guli common 2tar jonno hobe sei time @extend .classname likhte hobe
+=============================== EX -> _cardContent.scss file er majhe

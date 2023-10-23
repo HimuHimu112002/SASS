@@ -1,0 +1,14 @@
+@mixin LI{
+    cursor: pointer;
+    display: inline-block;
+    list-style-type: none;
+    background-color: black;
+    color: $menuItemsColor;
+    padding: 4px 10px;
+}
+//dynamic style
+@mixin LI1($border_color, $border_radius, $borderWidth){
+    border-color: $border_color;
+    border-radius: $border_radius;
+    border-width: $borderWidth;
+}
